@@ -109,7 +109,9 @@ protected:
     /* Flag that we need to skip first disk change events after partitioning*/
     bool mSkipChange;
 
-    void createPublicVolume(dev_t device);
+    void createPublicVolume(dev_t device,
+                    const std::string& fstype = "",
+                    const std::string& mntopts = "");
     void createPrivateVolume(dev_t device, const std::string& partGuid);
 
     void destroyAllVolumes();
