@@ -8,6 +8,7 @@ common_src_files := \
 	NetlinkManager.cpp \
 	NetlinkHandler.cpp \
 	Process.cpp \
+        fs/Exfat.cpp \
 	fs/Ext4.cpp \
 	fs/F2fs.cpp \
 	fs/Ntfs.cpp \
