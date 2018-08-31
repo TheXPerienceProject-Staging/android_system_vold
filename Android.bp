@@ -167,8 +167,10 @@ cc_binary {
                 "libarcobbvolume",
             ],
         },
-        device_support_hwfde: {
-            shared_libs: ["libcryptfs_hw"],
+        xperience: {
+            device_support_hwfde: {
+                shared_libs: ["libcryptfs_hw"],
+            },
         },
     },
     init_rc: [
